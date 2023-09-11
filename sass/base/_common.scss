@@ -1,0 +1,35 @@
+body {
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  background: var(--black);
+}
+@font-face {
+  font-family: 'helveticarounded_bold';
+  src: url('../fonts/helvetica_rounded_bold-webfont.woff2') format('woff2'),
+       url('../fonts/helvetica_rounded_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1260px;
+  margin: auto;
+}
