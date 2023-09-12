@@ -96,7 +96,7 @@ a {
   color: var(--green);
 }
 .top-header-backgrouund .top-header .menu ul li:last-child .header-btn {
-  margin: 30px 0 30px 100px;
+  margin: 30px 0 30px 43px;
   width: 100%;
 }
 .top-header-backgrouund .top-header .menu ul li:last-child .header-btn a {
@@ -124,7 +124,7 @@ a {
   width: 0;
   background: var(--green);
   position: absolute;
-  left: 0;
+  left: -5px;
   top: 0;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -214,7 +214,7 @@ a {
   width: 0;
   background: var(--green);
   position: absolute;
-  left: 0;
+  left: -5px;
   top: 0;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -448,7 +448,7 @@ a {
   position: relative;
   z-index: 1;
   display: inline-block;
-  padding: 10px 10px 9px 10px;
+  padding: 11px 10px 9px 10px;
   background: transparent;
   border-radius: 23px;
   -webkit-transition: 0.5s;
@@ -467,7 +467,7 @@ a {
   width: 0;
   background: var(--green);
   position: absolute;
-  left: 0;
+  left: -5px;
   top: 0;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -759,6 +759,9 @@ ul.tabs li.current {
   font-weight: 400;
   cursor: pointer;
   width: 100%;
+}
+.footer-background .footer-text .four-panel ul li select option {
+  color: var(--black-sads);
 }
 .footer-background .footer-text .four-panel ul li .down-arrow img {
   width: 10px;
